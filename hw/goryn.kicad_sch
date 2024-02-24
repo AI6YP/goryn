@@ -1,0 +1,86 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 745fe258-3c32-4527-ad01-ef9d3fd5a8f9)
+
+  (paper "A4" portrait)
+
+  (title_block
+    (date "2023-12-24")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 60 70) (size 20 20) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 66aafb42-b99b-4025-a804-029ff592ebc8)
+    (property "Sheetname" "West" (at 60 69.2884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "goryn-W.kicad_sch" (at 60 90.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "goryn"
+        (path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 120 70) (size 20 20) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c39836a0-69bd-42e3-a86b-0989a6330659)
+    (property "Sheetname" "East" (at 120 69.2884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "goryn-E.kicad_sch" (at 120 90.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "goryn"
+        (path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 90 100) (size 20 20) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ce95a81f-e5e2-402d-b8f8-c902f6a2df69)
+    (property "Sheetname" "South" (at 90 99.2884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "goryn-S.kicad_sch" (at 90 120.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "goryn"
+        (path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 90 40) (size 20 20) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid efafad0f-667d-4481-b30a-d8d0ba7927b3)
+    (property "Sheetname" "North" (at 90 39.2884 0) (do_not_autoplace)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "goryn-N.kicad_sch" (at 90 60.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "goryn"
+        (path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9" (page "5"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
