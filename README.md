@@ -7,6 +7,13 @@
 
 <img src="assets/pcb-3d.png"/>
 
+
+## Goryn on the map
+
+51.867, 26.847
+
+<img src="assets/topo.png"/>
+
 ## License
 
 Hardware is released under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
