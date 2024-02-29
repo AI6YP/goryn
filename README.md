@@ -10,7 +10,8 @@
 
 ## Goryn on the map
 
-51.867, 26.847
+https://www.google.com/maps/@51.8671689,26.8422638,6338m/data=!3m1!1e3
+
 
 <img src="assets/topo.png"/>
 
