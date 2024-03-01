@@ -17,4 +17,4 @@ https://www.google.com/maps/@51.8671689,26.8422638,6338m/data=!3m1!1e3
 
 ## License
 
-Hardware is released under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) [[LICENSE](LICENSE)].
+Hardware is released under the <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 <img src="assets/by.svg"/></a> [[LICENSE](LICENSE)].
