@@ -221,6 +221,114 @@
 				)
 			)
 		)
+		(symbol "AI6YP:+5V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -2 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 4 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.7 1) (xy 0 2) (xy 0.7 1)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+5V"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "AI6YP:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1041,7 +1149,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 					(hide yes)
 				)
@@ -1110,10 +1218,10 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 15 -118 0)
+				(at 14 9 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 				)
 			)
@@ -1121,7 +1229,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 				)
 			)
@@ -1129,7 +1237,7 @@
 				(at 20 13 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 					(hide yes)
 				)
@@ -1138,7 +1246,7 @@
 				(at 7 17 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 					(hide yes)
 				)
@@ -1147,7 +1255,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 					(hide yes)
 				)
@@ -1455,7 +1563,7 @@
 				(pin bidirectional line
 					(at -4 -24 0)
 					(length 4)
-					(name "IOL7a/LPLL1_T_in"
+					(name "IOL7A/LPLL1_T_in"
 						(effects
 							(font
 								(size 2 2)
@@ -2199,7 +2307,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -4 -64 0)
+					(at -4 -60 0)
 					(length 4)
 					(name "IOR35A/FASTRD_N/D3"
 						(effects
@@ -2807,31 +2915,30 @@
 				)
 			)
 		)
-		(symbol "AI6YP:MountingHole_M3"
-			(pin_numbers hide)
+		(symbol "AI6YP:PinHeader_1x02_P2.54mm_Vertical"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
+			(property "Reference" "J"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole_M3"
-				(at 0 4.445 0)
+			(property "Value" "PinHeader_1x02_P2.54mm_Vertical"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "AI6YP:MountingHole_3.2mm_M3_Pad_Via"
-				(at 0 3 0)
+			(property "Footprint" "AI6YP:PinHeader_1x02_P2.54mm_Vertical"
+				(at 0 -16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2840,6 +2947,32 @@
 				)
 			)
 			(property "Datasheet" "~"
+				(at 0 -8 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2-Pin Header"
+				(at 0 -11 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2848,7 +2981,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole with connection"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2857,40 +2990,11 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_M3_1_1"
-				(circle
-					(center 0 0)
-					(radius 1)
-					(stroke
-						(width 1)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at 0 -3 90)
-					(length 2)
-					(name "1"
+			(symbol "PinHeader_1x02_P2.54mm_Vertical_1_1"
+				(pin passive line
+					(at 4 0 180)
+					(length 4)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1 1)
@@ -2898,6 +3002,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 4 -3 180)
+					(length 4)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1 1)
@@ -3314,6 +3436,16 @@
 	)
 	(wire
 		(pts
+			(xy 34 187) (xy 38 187)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf9a977-18be-4109-9a2c-b73e3921d0f9")
+	)
+	(wire
+		(pts
 			(xy 105 152) (xy 108 152)
 		)
 		(stroke
@@ -3384,6 +3516,16 @@
 	)
 	(wire
 		(pts
+			(xy 62 108) (xy 108 108)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e3447ff-d58e-4809-ba3c-db7101b41805")
+	)
+	(wire
+		(pts
 			(xy 169 220) (xy 172 220)
 		)
 		(stroke
@@ -3421,6 +3563,16 @@
 			(type default)
 		)
 		(uuid "4927e9a2-6952-4226-9db4-c47d9bf3ba2c")
+	)
+	(wire
+		(pts
+			(xy 34 190) (xy 38 190)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49698fdf-d188-42a3-91e5-ec9f10d72ee4")
 	)
 	(wire
 		(pts
@@ -3471,6 +3623,16 @@
 			(type default)
 		)
 		(uuid "5bc12ba3-e47f-4712-95eb-8038bb1c4e0a")
+	)
+	(wire
+		(pts
+			(xy 34 177) (xy 38 177)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d331e0c-a812-4d00-887e-19208cd9d209")
 	)
 	(wire
 		(pts
@@ -3654,6 +3816,26 @@
 	)
 	(wire
 		(pts
+			(xy 34 200) (xy 38 200)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e4168b8-f666-4ca6-bd29-bf67d224b911")
+	)
+	(wire
+		(pts
+			(xy 34 180) (xy 38 180)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fb9eb69-9af1-400c-a9b6-2f5e56273dd5")
+	)
+	(wire
+		(pts
 			(xy 62 64) (xy 108 64)
 		)
 		(stroke
@@ -3661,16 +3843,6 @@
 			(type default)
 		)
 		(uuid "a0b2ded1-282a-4da3-952d-f47888dcbd01")
-	)
-	(wire
-		(pts
-			(xy 62 112) (xy 108 112)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "befb5c1d-0244-4403-b1e8-bcb1ce61a1d5")
 	)
 	(wire
 		(pts
@@ -3694,13 +3866,13 @@
 	)
 	(wire
 		(pts
-			(xy 30 33) (xy 30 35)
+			(xy 34 197) (xy 38 197)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c932529e-32a5-4d1c-a1f8-53b95a599d24")
+		(uuid "cc2be3d5-9a6a-487c-9e2e-e9b68afab2bf")
 	)
 	(wire
 		(pts
@@ -3990,7 +4162,7 @@
 	)
 	(global_label "MSPI_WP"
 		(shape input)
-		(at 67 112 0)
+		(at 67 108 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4000,7 +4172,7 @@
 		)
 		(uuid "6f64da22-d314-47d7-9a76-dec250b33a54")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.2099 112 0)
+			(at 78.2099 108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4187,6 +4359,138 @@
 		)
 	)
 	(symbol
+		(lib_id "AI6YP:PinHeader_1x02_P2.54mm_Vertical")
+		(at 30 177 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19c15530-c77a-419c-8682-0a592c3a5721")
+		(property "Reference" "J8"
+			(at 30 173 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "5V"
+			(at 30 174.79 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "AI6YP:PinHeader_1x02_P2.54mm_Vertical"
+			(at 30 193 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30 185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-Pin Header"
+			(at 30 188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81c24f97-6505-4d46-bc2f-030658c5e5bf")
+		)
+		(pin "1"
+			(uuid "108f1a0b-4e25-4ae4-baf2-a45086a33466")
+		)
+		(instances
+			(project "goryn"
+				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/c39836a0-69bd-42e3-a86b-0989a6330659"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AI6YP:+1V0")
+		(at 38 190 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b03d67b-7b12-42c3-819b-8cd4f704d1f3")
+		(property "Reference" "#PWR033"
+			(at 36 190 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V0"
+			(at 42 190 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38 190 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38 190 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 38 190 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5f15812-5025-4658-910c-9fa54f44b7ac")
+		)
+		(instances
+			(project "goryn"
+				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/c39836a0-69bd-42e3-a86b-0989a6330659"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "AI6YP:GND")
 		(at 65 44 90)
 		(unit 1)
@@ -4232,7 +4536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 65 44 0)
 			(effects
 				(font
@@ -4248,6 +4552,73 @@
 			(project "goryn"
 				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/c39836a0-69bd-42e3-a86b-0989a6330659"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AI6YP:PinHeader_1x02_P2.54mm_Vertical")
+		(at 30 187 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24e45ab1-5d22-46ba-a100-24f148546ce9")
+		(property "Reference" "J9"
+			(at 30 183 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "1V"
+			(at 30 185 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "AI6YP:PinHeader_1x02_P2.54mm_Vertical"
+			(at 30 203 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30 195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-Pin Header"
+			(at 30 198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "07b5da6f-43b1-47aa-8ee9-0156016b3ee6")
+		)
+		(pin "1"
+			(uuid "54cb1041-e6c3-4857-8651-983c6b8fa6b9")
+		)
+		(instances
+			(project "goryn"
+				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/c39836a0-69bd-42e3-a86b-0989a6330659"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -4298,7 +4669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 92 41 0)
 			(effects
 				(font
@@ -4365,7 +4736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 171 216 0)
 			(effects
 				(font
@@ -4432,7 +4803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 65 92 0)
 			(effects
 				(font
@@ -4499,7 +4870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 64 156 0)
 			(effects
 				(font
@@ -4566,7 +4937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 65 116 0)
 			(effects
 				(font
@@ -4582,73 +4953,6 @@
 			(project "goryn"
 				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/c39836a0-69bd-42e3-a86b-0989a6330659"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AI6YP:MountingHole_M3")
-		(at 30 30 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30872411-2d41-4058-832c-953e0afd1caf")
-		(property "Reference" "H3"
-			(at 33.02 27.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_M3"
-			(at 33.02 30 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AI6YP:MountingHole_3.2mm_M3_Pad_Via"
-			(at 30 30 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30 30 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30 30 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4dc779df-fd41-4337-9965-07f06f94b497")
-		)
-		(instances
-			(project "goryn"
-				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/c39836a0-69bd-42e3-a86b-0989a6330659"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -4700,7 +5004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 105 116 0)
 			(effects
 				(font
@@ -4766,7 +5070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 92 38 0)
 			(effects
 				(font
@@ -4833,7 +5137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 167 216 0)
 			(effects
 				(font
@@ -4900,7 +5204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 65 212 0)
 			(effects
 				(font
@@ -4968,7 +5272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "FFC 30 pin connector"
 			(at 77 100 0)
 			(effects
 				(font
@@ -5125,7 +5429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 60 212 0)
 			(effects
 				(font
@@ -5141,6 +5445,73 @@
 			(project "goryn"
 				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/c39836a0-69bd-42e3-a86b-0989a6330659"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AI6YP:GND")
+		(at 38 187 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f7b4686-c171-4d85-a4b5-1027b1253f12")
+		(property "Reference" "#PWR0135"
+			(at 42 187 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.69 187 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 38 187 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38 187 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38 187 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c6bb1b2-5dde-4aaf-b2ab-576c903523bb")
+		)
+		(instances
+			(project "goryn"
+				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/c39836a0-69bd-42e3-a86b-0989a6330659"
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -5192,7 +5563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 60 220 0)
 			(effects
 				(font
@@ -5214,17 +5585,17 @@
 		)
 	)
 	(symbol
-		(lib_id "AI6YP:GND")
-		(at 30 35 0)
+		(lib_id "AI6YP:+3V3")
+		(at 38 200 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "59f16237-d862-4ecb-b898-8af0b6d44243")
-		(property "Reference" "#PWR031"
-			(at 30 39 0)
+		(uuid "54d5e0f2-baed-4195-b1de-2626517a0e5f")
+		(property "Reference" "#PWR0136"
+			(at 36 200 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5232,16 +5603,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 30 38.22 0)
+		(property "Value" "+3V3"
+			(at 41.53 200 90)
 			(effects
 				(font
 					(size 1 1)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 30 35 0)
+			(at 38 200 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5250,7 +5622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30 35 0)
+			(at 38 200 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5258,8 +5630,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 30 35 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 38 200 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5268,12 +5640,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5ba96467-cd55-4f88-af94-63447e86b517")
+			(uuid "f86fd4d2-06cd-43fd-901b-81009c3d1425")
 		)
 		(instances
 			(project "goryn"
 				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/c39836a0-69bd-42e3-a86b-0989a6330659"
-					(reference "#PWR031")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -5324,7 +5696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
 			(at 110 213 0)
 			(effects
 				(font
@@ -5741,7 +6113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 106 48 0)
 			(effects
 				(font
@@ -5808,7 +6180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 105 152 0)
 			(effects
 				(font
@@ -5875,7 +6247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 82 34 0)
 			(effects
 				(font
@@ -5942,7 +6314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 65 104 0)
 			(effects
 				(font
@@ -6009,7 +6381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 65 152 0)
 			(effects
 				(font
@@ -6076,7 +6448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 64 40 0)
 			(effects
 				(font
@@ -6143,7 +6515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 106 68 0)
 			(effects
 				(font
@@ -6210,7 +6582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 105 164 0)
 			(effects
 				(font
@@ -6277,7 +6649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 65 160 0)
 			(effects
 				(font
@@ -6341,7 +6713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 65 220 0)
 			(effects
 				(font
@@ -6410,7 +6782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 87 170 0)
 			(effects
 				(font
@@ -6477,7 +6849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 65 68 0)
 			(effects
 				(font
@@ -6543,7 +6915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 96 177 0)
 			(effects
 				(font
@@ -6608,7 +6980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 82 39 0)
 			(effects
 				(font
@@ -6678,7 +7050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 65 80 0)
 			(effects
 				(font
@@ -6694,6 +7066,73 @@
 			(project "goryn"
 				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/c39836a0-69bd-42e3-a86b-0989a6330659"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AI6YP:PinHeader_1x02_P2.54mm_Vertical")
+		(at 30 197 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "caa47b5b-2417-4d66-967c-3fe6fd114036")
+		(property "Reference" "J10"
+			(at 30 192.25 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 30 194.79 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "AI6YP:PinHeader_1x02_P2.54mm_Vertical"
+			(at 30 213 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30 205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2-Pin Header"
+			(at 30 208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87afa111-d47d-441a-b3ac-37efc36babf8")
+		)
+		(pin "1"
+			(uuid "64f25172-1fa5-4f01-b7b8-7dae7841ac3c")
+		)
+		(instances
+			(project "goryn"
+				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/c39836a0-69bd-42e3-a86b-0989a6330659"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -6745,7 +7184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 94 224 0)
 			(effects
 				(font
@@ -6812,7 +7251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 65 128 0)
 			(effects
 				(font
@@ -6879,7 +7318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 126 212 0)
 			(effects
 				(font
@@ -6946,7 +7385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 106 44 0)
 			(effects
 				(font
@@ -6962,6 +7401,73 @@
 			(project "goryn"
 				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/c39836a0-69bd-42e3-a86b-0989a6330659"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AI6YP:GND")
+		(at 38 197 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db823c16-5f83-4abb-8a68-6b69d722c54d")
+		(property "Reference" "#PWR0137"
+			(at 42 197 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.69 197 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 38 197 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38 197 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38 197 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d8b56e3-cfd5-499f-98eb-c3a358dd796a")
+		)
+		(instances
+			(project "goryn"
+				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/c39836a0-69bd-42e3-a86b-0989a6330659"
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -7010,7 +7516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 167 220 0)
 			(effects
 				(font
@@ -7080,7 +7586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 172 220 0)
 			(effects
 				(font
@@ -7147,7 +7653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 65 56 0)
 			(effects
 				(font
@@ -7214,7 +7720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 65 140 0)
 			(effects
 				(font
@@ -7281,7 +7787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 105 160 0)
 			(effects
 				(font
@@ -7347,7 +7853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 87 177 0)
 			(effects
 				(font
@@ -7413,7 +7919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 96 174 0)
 			(effects
 				(font
@@ -7481,7 +7987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 96 170 0)
 			(effects
 				(font
@@ -7547,7 +8053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
 			(at 92 34 0)
 			(effects
 				(font
@@ -7563,6 +8069,72 @@
 			(project "goryn"
 				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/c39836a0-69bd-42e3-a86b-0989a6330659"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AI6YP:+5V")
+		(at 38 180 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7e708d4-def1-4119-bde1-8dca97729297")
+		(property "Reference" "#PWR019"
+			(at 36 180 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 41 180 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38 180 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38 180 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 38 180 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e6688a3-8b97-475d-81b9-95f69eab384f")
+		)
+		(instances
+			(project "goryn"
+				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/c39836a0-69bd-42e3-a86b-0989a6330659"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7613,7 +8185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 87 174 0)
 			(effects
 				(font
@@ -7632,6 +8204,73 @@
 			(project "goryn"
 				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/c39836a0-69bd-42e3-a86b-0989a6330659"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AI6YP:GND")
+		(at 38 177 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff7041c3-c8cc-4604-9a1e-fef21c2a001e")
+		(property "Reference" "#PWR031"
+			(at 42 177 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.69 177 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 38 177 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38 177 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38 177 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08a61f41-f545-4343-9bc3-7d057e36ce20")
+		)
+		(instances
+			(project "goryn"
+				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/c39836a0-69bd-42e3-a86b-0989a6330659"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)

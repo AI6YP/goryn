@@ -1,7 +1,7 @@
 # Горынь
 
 * GOWIN FPGA GW2AR-LV18QN88C8/I7 QN88
-* 4 FFC LVDS capable connectors
+* 4 x 30pin FPC LVDS capable connectors
 * FLASH 64MiB
 * 3v3, 1v0 DC-DC converters
 
