@@ -7,6 +7,9 @@
 
 <img src="assets/pcb-3d.png"/>
 
+## BOM
+
+https://ai6yp.github.io/goryn/ibom.html
 
 ## Goryn on the map
 
