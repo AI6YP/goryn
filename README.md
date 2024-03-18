@@ -15,6 +15,8 @@ https://ai6yp.github.io/goryn/ibom.html
 
 ## Goryn on the map
 
+Locator: KO31ku
+
 https://www.google.com/maps/@51.8671689,26.8422638,6338m/data=!3m1!1e3
 
 
