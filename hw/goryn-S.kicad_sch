@@ -1233,7 +1233,7 @@
 					)
 				)
 			)
-			(property "Footprint" "AI6YP:QFN-88-10x10mm-P0.4mm-EP6.74x6.74mm"
+			(property "Footprint" "AI6YP:GIWIN-QFN-88-10x10mm-P0.4mm-EP6.74x6.74mm"
 				(at 20 13 0)
 				(effects
 					(font
@@ -7452,7 +7452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AI6YP:QFN-88-10x10mm-P0.4mm-EP6.74x6.74mm"
+		(property "Footprint" "AI6YP:GIWIN-QFN-88-10x10mm-P0.4mm-EP6.74x6.74mm"
 			(at 180 87 0)
 			(effects
 				(font

@@ -994,106 +994,6 @@
 				)
 			)
 		)
-		(symbol "AI6YP:EMI-shield-clip-corner"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Value" "EMI-shield-clip-corner"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Footprint" "AI6YP:EMI-shield-clip-corner"
-				(at 0 -4 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -2 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "EMI-shield-clip-corner"
-				(at 0 -6 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "EMI-shield-clip-corner_1_1"
-				(polyline
-					(pts
-						(xy 0 4) (xy 0 0) (xy 4 0) (xy 4 1) (xy 1 1) (xy 1 4) (xy 0 4)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 -2 90)
-					(length 2)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "AI6YP:GND"
 			(power)
 			(pin_names
@@ -1225,7 +1125,7 @@
 					)
 				)
 			)
-			(property "Footprint" "AI6YP:QFN-88-10x10mm-P0.4mm-EP6.74x6.74mm"
+			(property "Footprint" "AI6YP:GIWIN-QFN-88-10x10mm-P0.4mm-EP6.74x6.74mm"
 				(at 20 13 0)
 				(effects
 					(font
@@ -3050,6 +2950,106 @@
 				)
 			)
 		)
+		(symbol "AI6YP:MountingHole_M3"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_M3"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "AI6YP:MountingHole_3.2mm_M3_Pad_Via"
+				(at 0 3 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_M3_1_1"
+				(circle
+					(center 0 0)
+					(radius 1)
+					(stroke
+						(width 1)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 -3 90)
+					(length 2)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "AI6YP:R"
 			(pin_numbers hide)
 			(pin_names
@@ -4206,6 +4206,140 @@
 		)
 	)
 	(symbol
+		(lib_id "AI6YP:MountingHole_M3")
+		(at 50 221 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09202e81-d627-409a-860b-fc7894284332")
+		(property "Reference" "H4"
+			(at 53.34 219.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MountingHole_M3"
+			(at 53.34 222.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "AI6YP:MountingHole_3.2mm_M3_Pad_Via"
+			(at 50 224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50 221 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 50 221 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c395963-5ce4-47de-9836-c874dd4168dc")
+		)
+		(instances
+			(project "goryn"
+				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/66aafb42-b99b-4025-a804-029ff592ebc8"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AI6YP:MountingHole_M3")
+		(at 50 229 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b89cd20-28aa-4266-9b16-14701701f3ca")
+		(property "Reference" "H1"
+			(at 53.15 227.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_M3"
+			(at 53.15 230.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AI6YP:MountingHole_3.2mm_M3_Pad_Via"
+			(at 50 226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50 229 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 50 229 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db18fb92-659c-42f5-af88-bdf4a4d709e7")
+		)
+		(instances
+			(project "goryn"
+				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/66aafb42-b99b-4025-a804-029ff592ebc8"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "AI6YP:+1V0")
 		(at 138 214 90)
 		(unit 1)
@@ -4400,72 +4534,6 @@
 			(project "goryn"
 				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/66aafb42-b99b-4025-a804-029ff592ebc8"
 					(reference "#PWR0144")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AI6YP:EMI-shield-clip-corner")
-		(at 60 220 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "32f4b437-21f4-4192-8df5-4f8cbf86ee9b")
-		(property "Reference" "J33"
-			(at 58 223 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EMI-shield-clip-corner"
-			(at 81 222 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AI6YP:EMI-shield-clip-corner"
-			(at 60 216 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60 218 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "EMI-shield-clip-corner"
-			(at 60 214 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "412e358e-2a99-4f88-a4f4-450c71288ac5")
-		)
-		(instances
-			(project "goryn"
-				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/66aafb42-b99b-4025-a804-029ff592ebc8"
-					(reference "J33")
 					(unit 1)
 				)
 			)
@@ -4673,73 +4741,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AI6YP:EMI-shield-clip-corner")
-		(at 60 230 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43974509-8db1-4210-81b2-ab9c53d2a9c6")
-		(property "Reference" "J32"
-			(at 58 227 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EMI-shield-clip-corner"
-			(at 84 230 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AI6YP:EMI-shield-clip-corner"
-			(at 60 234 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60 232 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "EMI-shield-clip-corner"
-			(at 60 236 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5182712-8609-4163-89a9-a8e86183d9be")
-		)
-		(instances
-			(project "goryn"
-				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/66aafb42-b99b-4025-a804-029ff592ebc8"
-					(reference "J32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "AI6YP:GND")
 		(at 60 234 0)
 		(unit 1)
@@ -4869,6 +4870,73 @@
 			(project "goryn"
 				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/66aafb42-b99b-4025-a804-029ff592ebc8"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AI6YP:MountingHole_M3")
+		(at 60 221 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fdf417a-4934-444e-b484-9ea32bcea490")
+		(property "Reference" "H3"
+			(at 63.34 219.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "MountingHole_M3"
+			(at 63.34 222.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "AI6YP:MountingHole_3.2mm_M3_Pad_Via"
+			(at 60 224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60 221 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 60 221 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b18fde30-7c6f-4986-b743-0af724c8f570")
+		)
+		(instances
+			(project "goryn"
+				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/66aafb42-b99b-4025-a804-029ff592ebc8"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -5071,73 +5139,6 @@
 			(project "goryn"
 				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/66aafb42-b99b-4025-a804-029ff592ebc8"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AI6YP:EMI-shield-clip-corner")
-		(at 50 220 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "65b9b173-cd3d-43e7-93ab-4c9ddf087307")
-		(property "Reference" "J30"
-			(at 52 223 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EMI-shield-clip-corner"
-			(at 29 222 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AI6YP:EMI-shield-clip-corner"
-			(at 50 216 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50 218 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "EMI-shield-clip-corner"
-			(at 50 214 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ba0d1ba-b39a-42be-901f-e74e8f685b6b")
-		)
-		(instances
-			(project "goryn"
-				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/66aafb42-b99b-4025-a804-029ff592ebc8"
-					(reference "J30")
 					(unit 1)
 				)
 			)
@@ -5509,7 +5510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AI6YP:QFN-88-10x10mm-P0.4mm-EP6.74x6.74mm"
+		(property "Footprint" "AI6YP:GIWIN-QFN-88-10x10mm-P0.4mm-EP6.74x6.74mm"
 			(at 150 94 0)
 			(effects
 				(font
@@ -6546,6 +6547,73 @@
 		)
 	)
 	(symbol
+		(lib_id "AI6YP:MountingHole_M3")
+		(at 60 229 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96197406-2d18-4f26-bb48-12719ec4fd56")
+		(property "Reference" "H2"
+			(at 62.5 227.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_M3"
+			(at 62.5 230.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AI6YP:MountingHole_3.2mm_M3_Pad_Via"
+			(at 60 226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60 229 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 60 229 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82297d4a-0809-4960-8e7b-a2f861292ad6")
+		)
+		(instances
+			(project "goryn"
+				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/66aafb42-b99b-4025-a804-029ff592ebc8"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "AI6YP:GND")
 		(at 50 234 0)
 		(unit 1)
@@ -7431,72 +7499,6 @@
 			(project "goryn"
 				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/66aafb42-b99b-4025-a804-029ff592ebc8"
 					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AI6YP:EMI-shield-clip-corner")
-		(at 50 230 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd94b657-77d8-4aad-a32d-407e44c82884")
-		(property "Reference" "J31"
-			(at 52 227 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EMI-shield-clip-corner"
-			(at 29 229 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AI6YP:EMI-shield-clip-corner"
-			(at 50 234 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50 232 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "EMI-shield-clip-corner"
-			(at 50 236 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "070b728a-fc0c-4338-9209-8516a71ac9d4")
-		)
-		(instances
-			(project "goryn"
-				(path "/745fe258-3c32-4527-ad01-ef9d3fd5a8f9/66aafb42-b99b-4025-a804-029ff592ebc8"
-					(reference "J31")
 					(unit 1)
 				)
 			)

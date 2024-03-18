@@ -7,6 +7,8 @@
 
 <img src="assets/pcb-3d.png"/>
 
+<img src="assets/pcb-3d-back.png"/>
+
 ## BOM
 
 https://ai6yp.github.io/goryn/ibom.html
@@ -20,4 +22,4 @@ https://www.google.com/maps/@51.8671689,26.8422638,6338m/data=!3m1!1e3
 
 ## License
 
-Hardware is released under the <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0 <img src="assets/by.svg"/></a> [[LICENSE](LICENSE)].
+Hardware is released under the <a href="https://creativecommons.org/licenses/by/4.0/"> CC BY 4.0 <img src="assets/by.svg"/></a> [[LICENSE](LICENSE)].
